@@ -1,0 +1,553 @@
+/*--------------------------------------
+     ### DESKTOP ###
+--------------------------------------*/
+
+.site-container{
+    width: 100vw;
+    max-width: 200vh;
+    height: 100vh;
+    max-height: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.section_img{
+    padding-left: 3rem;
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container_img{
+    width: 100%;
+    display: -webkit-box;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.section_info{
+    padding-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.info{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.logo{
+    height: 12vh;
+    max-height: 12vw;
+}
+
+#isologo {
+    height: 10vh;
+    max-height: 10vw;
+}
+
+.text_box{
+    width: 36vh;
+    max-width: 36vw;
+    height: 14vh;
+    max-height: 14vw;
+    display: flex;
+    align-items: flex-start;
+}
+
+#text_1{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.1vh;
+    line-height: 1.15em;
+    text-transform: none;
+    letter-spacing: .01em;
+    color: #ffffff;
+}
+
+.contact_box{
+    height: 5vh;
+    max-height: 5vw;
+}
+
+#text_2{
+    width: fit-content;
+    height: fit-content;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.1vh;
+    line-height: 1.15em;
+    text-transform: uppercase;
+    text-transform: none;
+    letter-spacing: .02em;
+    font-style: normal;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sm_icons{
+    width: 35vh;
+    max-width: 35vw;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+.icon_wrapper{
+    width: 7vh;
+    max-width: 7vw;
+    height: 7vh;
+    max-height: 7vw;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.icon{
+    fill: rgb(255, 255, 255);
+    width: 5vh;
+    max-width: 5vw;
+    height: 5vh;
+    max-height: 5vw;
+}
+
+a svg:hover #twitter,
+a svg:hover #youtube,
+a svg:hover #instagram,
+a svg:hover #instagram_2,
+a svg:hover #instagram_3,
+a svg:hover #facebook,
+a svg:hover #whatsapp,
+a svg:hover #linkedin,
+a svg:hover #github,
+a svg:hover #platzi,
+a svg:hover #codepen,
+a svg:hover #behance,
+a svg:hover #pinterest,
+a svg:hover #spotify,
+a svg:hover #soundcloud,
+a svg:hover #reddit,
+a svg:hover #medium{ 
+fill: #A7A9AC;
+fill-opacity: 1;
+}
+
+a svg #twitter,
+a svg #youtube,
+a svg #instagram,
+a svg #instagram_2,
+a svg #instagram_3,
+a svg #facebook,
+a svg #whatsapp,
+a svg #linkedin,
+a svg #github,
+a svg #platzi,
+a svg #codepen,
+a svg #behance,
+a svg #pinterest,
+a svg #spotify,
+a svg #soundcloud,
+a svg #reddit,
+a svg #medium{ 
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.container_user{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container_link{
+    margin-left: -100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+
+.container_icon{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.user_icon{
+    width: 68vh;
+    max-width: 55vw;
+    height: 68vh;
+    max-height: 55vw;
+}
+
+#thony_path{
+    fill: rgb(255, 255, 255);
+    fill-opacity: 1;
+}
+
+.link_box{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+}
+
+.link{
+    width: 68vh;
+    max-width: 55vw;
+    height: 68vh;
+    max-height: 55vw;
+}
+
+/*--------------------------------------
+     ### END DESKTOP ###
+
+
+@media only screen 
+  and (min-device-height: 1200px) 
+  and (orientation: portrait){
+    @media only screen 
+    and (min-device-height: 100vw){
+        #text_1,
+        #text_2{
+            font-size: 2.6vw;
+        }
+    } 
+}
+--------------------------------------*/
+
+/*--------------------------------------
+     ### END DESKTOP ###
+--------------------------------------*/
+
+/*--------------------------------------
+     ### TABLET ###
+--------------------------------------*/
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1199px) 
+  and (orientation: portrait) {
+
+
+
+    .site-container {
+        flex-direction: column-reverse;
+        max-height: none;
+    }
+
+    .section_info{
+        width: 100vw;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .info{
+        margin-top: 0;
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text_box{
+        width: 60vh;
+        max-width: 60vw;
+        height: 20vh;
+        max-height: 20vw;
+        justify-content: center;
+    }
+
+    #text_1,
+    #text_2{
+        text-align: center;
+    }
+
+    .contact_box{
+        height: 6vh;
+        max-height: 6vw;
+    }
+
+    .sm_icons{
+        width: 45vh;
+        max-width: 45vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icon_wrapper {
+        width: 9vh;
+        max-width: 9vw;
+        height: 9vh;
+        max-height: 9vw;
+    }
+
+    .icon,
+    #icon_codepen,
+    #icon_spotify{
+        width: 6vh;
+        max-width: 6vw;
+        height: 6vh;
+        max-height: 6vw;
+    }
+
+    .section_img{
+        width: 100vw;
+        height: 45vh;
+    }
+
+    .container_img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_icon_link{
+        width: 200px;
+        height: 380px;
+    }
+
+    .user_icon{
+    width: 40vh;
+    height: 40vh;
+    }
+
+    .link_box{
+        width: 40vh;
+        height: 40vh;
+        display: flex;
+    }
+}
+
+/*--------------------------------------
+     ### MOBILE ###
+--------------------------------------*/
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 0px) 
+  and (max-device-width: 767px) 
+  and (orientation: portrait) {
+
+    .site-container {
+        flex-direction: column-reverse;
+        max-height: none;
+    }
+
+    .section_info{
+        padding-top: 5rem;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .info{
+        margin-top: 0;
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #isologo {
+        height: 16vh;
+        max-height: 14vw;
+    }
+
+    .logo {
+        height: 20vh;
+        max-height: 19vw;
+    }
+
+    .text_box{
+        width: 75vh;
+        max-width: 75vw;
+        height: 34vh;
+        max-height: 31vw;
+        justify-content: center;
+    }
+
+    #text_1,
+    #text_2{
+        font-size: 4.5vw;
+        text-align: center;
+    }
+
+    .contact_box{
+        height: 12vh;
+        max-height: 12vw;
+    }
+
+    .sm_icons{
+        width: 75vh;
+        max-width: 75vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icon_wrapper {
+        width: 14vh;
+        max-width: 14vw;
+        height: 14vh;
+        max-height: 14vw;
+    }
+
+    .icon,
+    #icon_whatsapp,
+    #icon_behance,
+    #icon_medium{
+        width: 10vh;
+        max-width: 10vw;
+        height: 10vh;
+        max-height: 10vw;
+    }
+
+    .section_img{
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .container_img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_icon_link{
+        width: 200px;
+        height: 380px;
+    }
+
+    .user_icon{
+    width: 30vh;
+    height: 30vh;
+    }
+
+    .link_box{
+        width: 40vh;
+        height: 30vh;
+        display: flex;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 0px) 
+  and (max-device-width: 839px)
+  and (orientation: landscape) {
+
+    .section_info{
+        width: 53vw;
+        height: 100vh;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .info{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+
+    #isologo {
+        height: 16vh;
+        max-height: 16vw;
+    }
+
+    .logo {
+        height: 20vh;
+        max-height: 20vw;
+    }
+
+    .text_box{
+        width: 75vh;
+        max-width: 75vw;
+        height: 23vh;
+        max-height: 23vw;
+        justify-content: center;
+    }
+
+    #text_1,
+    #text_2{
+        font-size: 4.2vh;
+        text-align: left;
+    }
+
+    .contact_box{
+        height: 10vh;
+        max-height: 10vw;
+    }
+
+    .sm_icons{
+        width: 75vh;
+        max-width: 75vw;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .icon_wrapper {
+        width: 13vh;
+        max-width: 13vw;
+        height: 13vh;
+        max-height: 13vw;
+    }
+
+    .icon{
+        width: 10vh;
+        max-width: 10vw;
+        height: 10vh;
+        max-height: 10vw;
+    }
+
+    .section_img{
+        width: 47vw;
+        height: 100vh;
+    }
+
+    .container_img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_icon_link{
+        width: 200px;
+        height: 380px;
+    }
+
+    .user_icon{
+    width: 70vh;
+    height: 70vh;
+    }
+
+    .link_box{
+        width: 70vh;
+        height: 70vh;
+        display: flex;
+    }
+      
+    
+}
